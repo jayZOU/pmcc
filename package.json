@@ -1,0 +1,25 @@
+{
+  "name": "pmcc",
+  "version": "0.0.3",
+  "description": "node memcached with promises",
+  "main": "pmcc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayZOU/pmcc.git"
+  },
+  "keywords": [
+    "memcache",
+    "promise",
+    "memcache-promises",
+    "node"
+  ],
+  "author": "jayzou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayZOU/pmcc/issues"
+  },
+  "homepage": "https://github.com/jayZOU/pmcc#readme"
+}
