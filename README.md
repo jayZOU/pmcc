@@ -4,6 +4,9 @@
 ## install
 ```
 npm install --save pmcc
+
+//dev
+npm run dev
 ```
 
 
@@ -15,6 +18,7 @@ npm install --save pmcc
     //获取memcache的promise化对象
     let pmcc = pmccer.init();
     //获取memcache原生对象
+    //let pmcc = pmccer.primeval();
     
     let result = await pmcc.set(key, value, lifetime);
     let value = await pmcc.get(key);
